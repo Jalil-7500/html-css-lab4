@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="https://images.unsplash.com/photo-1606787366850-de6330128bfc" alt="Banner" class="banner">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Register</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <form class="register-form">
+      <h2>Register</h2>
+      <label>Name:</label><input type="text" required>
+      <label>Email:</label><input type="email" required>
+      <label>Password:</label><input type="password" required>
+      <label>Re-type password:</label><input type="password" required>
+
+      <div class="choices">
+        <input type="radio" name="option"> I want to buy produce directly from allotment owners.<br>
+        <input type="radio" name="option"> I want to sell produce from my allotment.
+      </div>
+
+      <div class="agreement">
+        <input type="checkbox" required> I agree to the <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.
+      </div>
+
+      <button type="submit">Register</button>
+      <p><a href="#">Learn more</a></p>
+    </form>
+  </main>
+</body>
+</html>
